@@ -65,7 +65,7 @@ function signAndUpdate(psbt, inputs, amounts, sigCounts, producedPsbt) {
         psbt: ser,
         signed: {
             max: counters.reduce((r, x) => Math.max(r, x), counters[0]),
-            max: counters.reduce((r, x) => Math.min(r, x), counters[0]),
+            min: counters.reduce((r, x) => Math.min(r, x), counters[0]),
         },
     });
 }
