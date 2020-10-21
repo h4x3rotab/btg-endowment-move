@@ -1,0 +1,12 @@
+{
+  "name": "endowment-move",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bgoldjs-lib": "https://github.com/BTCGPU/bitcoinjs-lib.git",
+    "bitcoin-rpc-async": "^1.0.3",
+    "dotenv": "^8.2.0"
+  }
+}
