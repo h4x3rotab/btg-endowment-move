@@ -39,7 +39,7 @@ Docker can be used to simplify the prepration process. It helps if you don't wan
     - e.g. Your working dir: `~/docker`
     - Then put this repo to: `~/docker/btg-endowment-move`
 2. Insert your privkeys to the `.env` file in `btg-endowment-move/` as mentioned in the previous section
-3. At the working dir, run: `docker run --rm -it -v $PWD/btg-endowment-move:/btg-endowment-move node:lts bash`
+3. At the working dir, run: `docker run --rm -it -v $PWD/btg-endowment-move:/btg-endowment-move node:lts bash` (sudo may be required; add it in front of the command when necessary)
 4. Now you get a ready-to-use shell. The repo on the host is mapped to `/btg-endowment-move` on the container side. Now you can enter the repo and run the signing tool:
 
     ```bash
